@@ -1,5 +1,0 @@
-Type the following command for the table 
-
-
-
-select Courses.name, Credits.amount, Course_types.type, Semesters.name from Courses join Credits join Course_types join Semesters on Courses.credit_id= Credits.id and Courses.courseType_id = Course_types.id and Courses.semester_id = Semesters.id
